@@ -1,4 +1,4 @@
-# python-template
+# ml-template
 
 ## Requirements
 

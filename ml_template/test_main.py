@@ -2,7 +2,7 @@
 sample test code
 """
 
-from python_template import main
+from ml_template import main
 
 
 def test_main():
