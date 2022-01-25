@@ -1,0 +1,21 @@
+{
+  "name": "python-template",
+  "dockerFile": "Dockerfile",
+  "postCreateCommand": "apt update && pipenv install --dev",
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "black"
+  },
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "ms-python.python",
+    "ms-azuretools.vscode-docker",
+    "bungcip.better-toml"
+  ]
+}
