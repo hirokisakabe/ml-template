@@ -16,3 +16,4 @@ jobs:
       - run: black --check ml_template/
       - run: pylint ml_template
       - run: pytest
+      - run: mypy .
