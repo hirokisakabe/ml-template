@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: pip install pipenv
-      - run: pipenv install --dev
-      - run: pipenv run black --check ml_template/
-      - run: pipenv run pylint ml_template
-      - run: pipenv run pytest
+      - run: pipenv install --dev --system
+      - run: black --check ml_template/
+      - run: pylint ml_template
+      - run: pytest
